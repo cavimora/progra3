@@ -1,0 +1,35 @@
+/* ----- index page styles ----- */
+
+.index {
+
+	width: 60%;
+	margin: auto;
+    // @include respond-to($medium) {
+    //     // color:#ff0000;
+    // }
+
+    // @include respond-to($large) {
+    //     // color:#333333;
+    // }
+ 	section{
+ 		margin-bottom: 10px;
+ 		.name{
+ 			font-size: 20px;
+ 			&.company {
+ 				a {
+ 					color: aqua;
+ 				}
+		    }
+		    &.person {
+		    	a {
+		    		color: red;
+		    	}
+		    }
+		    &.place {
+		    	a {
+		    		color: green;
+		    	}
+		    }
+ 		}
+ 	}
+}

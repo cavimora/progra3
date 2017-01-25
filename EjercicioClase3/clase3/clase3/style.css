@@ -1,0 +1,25 @@
+﻿.index {
+    width: 60%;
+    margin: auto
+}
+
+.index section {
+	width: 100%;
+    margin-bottom: 10px
+}
+
+.index section .name {
+    font-size: 20px
+}
+
+.index section .name.company a {
+    color: aqua
+}
+
+.index section .name.person a {
+    color: red
+}
+
+.index section .name.place a {
+    color: green
+}
