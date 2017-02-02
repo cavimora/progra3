@@ -1,0 +1,32 @@
+/* ----- index page styles ----- */
+
+.index {
+	width: 70%;
+	margin: auto;
+    // @include respond-to($medium) {
+    //     color:#ff0000;
+    // }
+
+    // @include respond-to($large) {
+    //     color:#333333;
+    // }
+    section {
+    	
+    	width: 100%;
+    	height: auto;
+    	margin-bottom: 5%; 
+
+    	h2 {
+    		font-size: 1em;
+    		font-weight: normal;
+    		border-bottom: 1px solid #000;
+    		width: 100%;
+    		text-transform: capitalize;
+    	}
+
+    	input[type="text"] {
+    		width: 100px;
+    	}
+    }
+
+}

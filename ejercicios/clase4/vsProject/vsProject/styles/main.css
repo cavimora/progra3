@@ -1,0 +1,27 @@
+﻿body {
+    font-size: 16px;
+    line-height: 1.4
+}
+
+.index {
+    width: 70%;
+    margin: auto
+}
+
+.index section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%
+}
+
+.index section h2 {
+    font-size: 1em;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    text-transform: capitalize
+}
+
+.index section input[type=text] {
+    width: 100px
+}
